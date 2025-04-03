@@ -19,10 +19,11 @@ sim.epsilon = 0.08; % perturbution factor
 sim.particle_n = 10;
 
 % % Remove reflectance observations on certain dates due to
-% irreasonable values of reflectance at certain bands **
-sim.removed_DAPs = [48 78 83];  % For Gadash 2019 season
+% irreasonable values of reflectance at certain bands
+% For Gadash 2019 season the observation DAPs are: 13,18,28,33,38,43,48,58,73,78,83,93,98,103,108
+sim.removed_DAPs = [48 78 83];
 
-% % Define cultivar for perturbution **
+% % Define cultivar for perturbution
 % Define number of parameters with which will have 2 values in each
 % combination (this define the size of the ensemble which is 2^k)
 sim.cultivar = 'TM0011'; % This cultivar is modified during the particle generation process

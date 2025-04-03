@@ -29,7 +29,7 @@ files.create_dir_flag = 1;
 
 %% Get Sensitivity indices
 % % Definition of DSSAT Parameters and sensitivity analyss properties
-[SA_mean_refl] = GetSIs();
+load('Data\Sensitivity indices\SA_mean_refl.mat','SA_mean_refl');
 
 % % Get observed data
 [obs_data] = GetObsRefl();
