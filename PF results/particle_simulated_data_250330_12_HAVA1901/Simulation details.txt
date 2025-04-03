@@ -1,0 +1,6 @@
+Cultivar: TM0011
+Number of particles: 10
+Tunning factor for noise addition (epsilon) = 0.08
+DAPs not considered in the simulation - [48 78 83]Relations used in coupling scheme: 
+Cab-1, Cca-1, Cdm-1, Cw-1, Cs-1, N-1, LAI-1, LIDF-1, BSM-1, SMC-1, 
+
